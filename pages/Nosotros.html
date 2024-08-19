@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <title>Nosotros</title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="../assets/images/logo45plusuy.jpeg"/>
-    
+    <header class="d-flex container-fluid">
+        <img id="logo" class="logo" src="../assets/images/logo45plusuy.jpeg"/>
+
         <nav>
-            <ul>
+            <ul class="d-flex">
                 <li>
                     <a href="../index.html">Inicio</a>
                 </li>
@@ -35,38 +39,41 @@
     <!-- Estilos HEADER -->
     
     <main>
-        <h1>Sobre Nosotros</h1>
+        <h1 class="text-center">Sobre Nosotros</h1>
 
-        <section id="seccion1">
-            <img src="../assets/images/faizur-rehman-dJpupM4LiS4-unsplash.jpg"/>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quidem ea. Facere pariatur assumenda necessitatibus voluptates! Suscipit quae consequatur veniam adipisci sapiente pariatur delectus consequuntur distinctio tempore dolor ut minima nesciunt reiciendis iure ex debitis ducimus incidunt ullam ipsum numquam magnam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quidem ea. Facere pariatur assumenda necessitatibus voluptates! Suscipit quae consequatur veniam adipisci sapiente pariatur delectus consequuntur distinctio tempore dolor ut minima nesciunt reiciendis iure ex debitis ducimus incidunt ullam ipsum numquam magnam.
-            </p>
+        <section class= d-flex container-fluid class= "col-6 h-100" id="seccion1">
+            <img  class="img-fluid w-100 h-100 align-self-center" src="../assets/images/faizur-rehman-dJpupM4LiS4-unsplash.jpg"/>
     
         </section>
+<section class= "col-6 h-100" id="seccion2">
+    <p class="text container-fluid w-100 h-100">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quidem ea. Facere pariatur assumenda necessitatibus voluptates! Suscipit quae consequatur veniam adipisci sapiente pariatur delectus consequuntur distinctio tempore dolor ut minima nesciunt reiciendis iure ex debitis ducimus incidunt ullam ipsum numquam magnam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quidem ea. Facere pariatur assumenda necessitatibus voluptates! Suscipit quae consequatur veniam adipisci sapiente pariatur delectus consequuntur distinctio tempore dolor ut minima nesciunt reiciendis iure ex debitis ducimus incidunt ullam ipsum numquam magnam.
+    </p>
 
+
+</section>
     </main>
     
     <!-- Estilos CONTENT -->
-    
-    <footer>
-    
-        <ul>
-            <li><a href="#"></a>Whastapp</li>
-    
-            <li><a href="#"></a>Facebook</li>
-    
-            <li><a href="#"></a>Mail</li>
-    
-            <li><a href="#"></a>Instagram<a/li>
+
+    <footer class="d-flex justify-content-between">
+        <div class="row">
+            <ul class="d-flex">
+                <button type="button" class="btn btn-link">Whastapp</button>
+                <button type="button" class="btn btn-link">Facebook</button>
+                <button type="button" class="btn btn-link">Mail</button>
+                <button type="button" class="btn btn-link">Instagram</button>
             </ul>
-    
-             <p>
-                Copyright 2024 plus45uy
-             </p>
+        </div>
+
+        <p>
+            Copyright 2024 plus45.uy
+        </p>
     </footer>
     <!-- Estilos FOOTER -->
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
