@@ -14,73 +14,94 @@
     <title>plus45uy | Nosotros</title>
 </head>
 <body>
-    <header class="container-fluid d-flex align-items-center flex-wrap justify-content-between bg-primary-subtle">
-        <img id="logo" class="logo" src="../assets/images/logo45plusuy.webp"/>
+    <header class="container-fluid d-flex align-items-center flex-wrap justify-content-between bg-primary-subtle p-3">
+        <!-- Logo -->
+        <div class="d-flex align-items-center">
+            <img id="logo" class="logo me-3" src="../assets/images/logo45plusuy.webp" alt="logo45plusuy"/>
+        </div>
+    
+        <!-- Navegación -->
         <nav>
-            <ul class="d-flex flex-wrap">
+            <ul class="d-flex flex-wrap list-unstyled mb-0">
                 <li class="border m-1 p-1">
-                    <a href="../index.html">Inicio</a>
+                    <a href="../index.html" class="text-decoration-none">Inicio</a>
                 </li>
-                <li class="border m-1  p-1">
-                    <a href="../pages/Nosotros.html">Nosotros</a>
+                <li class="border m-1 p-1">
+                    <a href="./Nosotros.html" class="text-decoration-none">Nosotros</a>
                 </li>
-                <li class="border m-1  p-1">
-                    <a href="../pages/Clientes.html">Clientes</a>
+                <li class="border m-1 p-1">
+                    <a href="./Clientes.html" class="text-decoration-none">Clientes</a>
                 </li>
-                <li class="border m-1  p-1">
-                    <a href="../pages/Servicios.html">Servicios</a>
+                <li class="border m-1 p-1">
+                    <a href="./Servicios.html" class="text-decoration-none">Servicios</a>
                 </li>
-                <li class="border m-1  p-1">
-                    <a href="../pages/Contacto.html">Contacto</a>
+                <li class="border m-1 p-1">
+                    <a href="./Contacto.html" class="text-decoration-none">Contacto</a>
                 </li>
             </ul>
         </nav>
-
+    
+        <!-- Botón -->
         <div>
-            <button type="button" class="btn btn-outline-dark">Crea tu Web</button>
+            <a href="./Servicios.html" class="btn btn-outline-dark">Crea tu Web</a>
         </div>
     </header>
 
     <!-- Estilos HEADER -->
-    
-    <main>
+    <main class="container-fluid">
         <h1 class="text-center mt-2">Sobre Nosotros</h1>
-
-        <section class="d-flex container-fluid col-6 h-100 py-2" id="seccion1">
-            <img  class="img-fluid w-100 h-75 align-self-center" src="../assets/images/sobre-nosotros.webp"/>
-        </section>
-
-        <section class= "col-6 w-100 h-100 py-2" id="seccion2">
-            <p class="text-center container-fluid w-100 h-100">
-            En plus45uy, estamos apasionados por transformar ideas en realidades digitales.
-            Desde nuestra fundación en 2020, hemos estado en la vanguardia del desarrollo web, creando soluciones innovadoras que no solo cumplen, sino que superan las expectativas de nuestros clientes. Nuestro equipo está compuesto por desarrolladores experimentados, diseñadores creativos y estrategas digitales dedicados a ofrecer productos web de alta calidad.
-            </p>
+    
+        <!-- Sección 1: Imagen -->
+        <section class="row h-100 py-2">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img class="img-fluid h-75 align-self-center" src="../assets/images/sobre-nosotros.webp" alt="Imagen de la pagina de Nosotros">
+            </div>
+    
+            <!-- Sección 2: Texto -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <p class="text-center px-3">
+                    En plus45uy, estamos apasionados por transformar ideas en realidades digitales. Desde nuestra fundación en 2020, hemos estado en la vanguardia del desarrollo web, creando soluciones innovadoras que no solo cumplen, sino que superan las expectativas de nuestros clientes. Nuestro equipo está compuesto por desarrolladores experimentados, diseñadores creativos y estrategas digitales dedicados a ofrecer productos web de alta calidad.
+                </p>
+            </div>
         </section>
     </main>
     
+    
     <!-- Estilos CONTENT -->
 
-    <footer class="d-flex justify-content-between bg-primary-subtle">
-        <div class="row">
-            <ul class="d-flex">
-                <a href="https://web.whatsapp.com/perfil-plus45uy-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" class="btn btn-link">
-                   <img src="../assets/images/whatsapp-svgrepo-com.webp" alt="..">
-                </a>
-               
-                <a href="https://www.facebook.com/?locale=es_LA/perfil-plus45uy-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="btn btn-link">
-                    <img src="../assets/images/facebook-1-svgrepo-com.webp" alt="..">
-                </a>
-                
-                <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe/perfil-plus45uy-email" target="_blank" rel="noopener noreferrer" aria-label="Gmail" class="btn btn-link">
-                    <img src="../assets/images/mail-svgrepo-com.webp" alt=".." >
-                </a>
-               
-                <a href="https://www.instagram.com/perfil-plus45uy-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="btn btn-link">
-                    <img src="../assets/images/instagram-1-svgrepo-com.webp" alt=".." >
-                </a>
-            </ul>
+    <footer class="container-fluid bg-primary-subtle p-3">
+        <div class="row justify-content-between align-items-center">
+            <!-- Redes Sociales -->
+            <div class="col-12 col-md-6">
+                <ul class="list-unstyled d-flex justify-content-start mb-0">
+                    <li class="me-3">
+                        <a href="https://web.whatsapp.com/perfil-plus45uy-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" class="btn btn-link">
+                            <img src="../assets/images/whatsapp-svgrepo-com.webp" alt="Logo de Whatsapp" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="https://www.facebook.com/?locale=es_LA/perfil-plus45uy-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="btn btn-link">
+                            <img src="../assets/images/facebook-1-svgrepo-com.webp" alt="Logo de Facebook" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe/perfil-plus45uy-email" target="_blank" rel="noopener noreferrer" aria-label="Gmail" class="btn btn-link">
+                            <img src="../assets/images/mail-svgrepo-com.webp" alt="Logo de Gmail" class="img-fluid">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/perfil-plus45uy-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="btn btn-link">
+                            <img src="../assets/images/instagram-1-svgrepo-com.webp" alt="Logo de Instagram" class="img-fluid">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="col-12 col-md-6 text-md-end text-center mt-3 mt-md-0">
+                <span>&copy; 2024 plus45.uy</span>
+            </div>
         </div>
-        <span>Copyright 2024 plus45.uy</span>
     </footer>
     
     <!-- Estilos FOOTER -->

@@ -13,85 +13,119 @@
     <title>plus45uy | Contacto</title>
 </head>
 <body>
-    <header class="container-fluid d-flex align-items-center flex-wrap justify-content-between bg-primary-subtle">
-    <img id="logo" class="logo" src="../assets/images/logo45plusuy.webp"/>
-    <nav>
-        <ul class="d-flex flex-wrap">
-            <li class="border m-1 p-1">
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li class="border m-1  p-1">
-                <a href="../pages/Nosotros.html">Nosotros</a>
-            </li>
-            <li class="border m-1  p-1">
-                <a href="../pages/Clientes.html">Clientes</a>
-            </li>
-            <li class="border m-1  p-1">
-                <a href="../pages/Servicios.html">Servicios</a>
-            </li>
-            <li class="border m-1  p-1">
-                <a href="../pages/Contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-
-    <div>
-        <button type="button" class="btn btn-outline-dark">Crea tu Web</button>
-    </div>
-</header>
+    <header class="container-fluid d-flex align-items-center flex-wrap justify-content-between bg-primary-subtle p-3">
+        <!-- Logo -->
+        <div class="d-flex align-items-center">
+            <img id="logo" class="logo me-3" src="../assets/images/logo45plusuy.webp" alt="logo45plusuy"/>
+        </div>
+    
+        <!-- Navegación -->
+        <nav>
+            <ul class="d-flex flex-wrap list-unstyled mb-0">
+                <li class="border m-1 p-1">
+                    <a href="../index.html" class="text-decoration-none">Inicio</a>
+                </li>
+                <li class="border m-1 p-1">
+                    <a href="./Nosotros.html" class="text-decoration-none">Nosotros</a>
+                </li>
+                <li class="border m-1 p-1">
+                    <a href="./Clientes.html" class="text-decoration-none">Clientes</a>
+                </li>
+                <li class="border m-1 p-1">
+                    <a href="./Servicios.html" class="text-decoration-none">Servicios</a>
+                </li>
+                <li class="border m-1 p-1">
+                    <a href="./Contacto.html" class="text-decoration-none">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <!-- Botón -->
+        <div>
+            <a href="./Servicios.html" class="btn btn-outline-dark">Crea tu Web</a>
+        </div>
+    </header>
 
     <!-- Estilos HEADER -->
-    
     <main class="container">
         <h1 class="text-center py-2">Contáctanos</h1>
-       
-        <div class="mb-5 py-2">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="text">
-            
-            <label for="exampleFormControlInput1" class="form-label">Telefóno</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="text">
-
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    
+        <!-- Formulario de contacto -->
+        <div class="row mb-5 py-2">
+            <div class="col-12 mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+    
+            <div class="col-12 mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono" placeholder="Tu teléfono">
+            </div>
+    
+            <div class="col-12 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
         </div>
-
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-            <button type="submit" class="btn btn-secondary">Cancelar</button>
+    
+        <!-- Sección de consulta y botones -->
+        <div class="row mb-3">
+            <div class="col-12">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consulta" rows="3" placeholder="Escribe tu consulta"></textarea>
+            </div>
+            <div class="col-12 mt-3 d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Cancelar</button>
+            </div>
         </div>
-
-        <span>Ubicación</span>
-        <a href="https://www.google.com/maps/place/World+Trade+Center+-+Torre+1/@-34.904543,-56.1392155,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8178a7202f3d:0x61fc690428a11b92!8m2!3d-34.904543!4d-56.1366406!16s%2Fg%2F11grrgxqvf?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" class="btn btn-link">
-            <img src="../assets/images/mapa .webp" alt="..">
-        </a>
+    
+        <!-- Ubicación -->
+        <div class="row">
+            <div class="col-12 d-flex align-items-center">
+                <span>Ubicación:</span>
+                <a href="https://www.google.com/maps/place/World+Trade+Center+-+Torre+1/@-34.904543,-56.1392155,17z/data=!3m1!4b1!4m6!3m5!1s0x959f8178a7202f3d:0x61fc690428a11b92!8m2!3d-34.904543!4d-56.1366406!16s%2Fg%2F11grrgxqvf?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Ubicación en Google Maps" class="btn btn-link ms-2">
+                    <img src="../assets/images/mapa.webp" alt="Mapa de Ubicación" class="img-fluid">
+                </a>
+            </div>
+        </div>
     </main>
     
     <!-- Estilos CONTENT -->
 
-    <footer class="d-flex justify-content-between bg-primary-subtle">
-        <div class="row">
-            <ul class="d-flex">
-                <a href="https://web.whatsapp.com/perfil-plus45uy-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" class="btn btn-link">
-                   <img src="../assets/images/whatsapp-svgrepo-com.webp" alt="..">
-                </a>
-               
-                <a href="https://www.facebook.com/?locale=es_LA/perfil-plus45uy-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="btn btn-link">
-                    <img src="../assets/images/facebook-1-svgrepo-com.webp" alt="..">
-                </a>
-                
-                <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe/perfil-plus45uy-email" target="_blank" rel="noopener noreferrer" aria-label="Gmail" class="btn btn-link">
-                    <img src="../assets/images/mail-svgrepo-com.webp" alt=".." >
-                </a>
-               
-                <a href="https://www.instagram.com/perfil-plus45uy-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="btn btn-link">
-                    <img src="../assets/images/instagram-1-svgrepo-com.webp" alt=".." >
-                </a>
-            </ul>
+    <footer class="container-fluid bg-primary-subtle p-3">
+        <div class="row justify-content-between align-items-center">
+            <!-- Redes Sociales -->
+            <div class="col-12 col-md-6">
+                <ul class="list-unstyled d-flex justify-content-start mb-0">
+                    <li class="me-3">
+                        <a href="https://web.whatsapp.com/perfil-plus45uy-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" class="btn btn-link">
+                            <img src="../assets/images/whatsapp-svgrepo-com.webp" alt="Logo de Whatsapp" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="https://www.facebook.com/?locale=es_LA/perfil-plus45uy-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="btn btn-link">
+                            <img src="../assets/images/facebook-1-svgrepo-com.webp" alt="Logo de Facebook" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe/perfil-plus45uy-email" target="_blank" rel="noopener noreferrer" aria-label="Gmail" class="btn btn-link">
+                            <img src="../assets/images/mail-svgrepo-com.webp" alt="Logo de Gmail" class="img-fluid">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/perfil-plus45uy-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="btn btn-link">
+                            <img src="../assets/images/instagram-1-svgrepo-com.webp" alt="Logo de Instagram" class="img-fluid">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="col-12 col-md-6 text-md-end text-center mt-3 mt-md-0">
+                <span>&copy; 2024 plus45.uy</span>
+            </div>
         </div>
-        <span>Copyright 2024 plus45.uy</span>
     </footer>
     
     <!-- Estilos FOOTER -->
