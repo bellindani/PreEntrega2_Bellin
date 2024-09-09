@@ -26,7 +26,7 @@ header {
 header main {
   height: 70vh;
 }
-header footer {
+footer {
   height: 10vh;
 }
 header nav ul li {
